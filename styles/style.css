@@ -3,6 +3,11 @@
     src: url("../fonts/Norse-Bold.otf");
 }
 
+@font-face {
+    font-family: "Century-Gothic";
+    src: url("../fonts/CenturyGothic.ttf");
+}
+
 html, body {
     padding: 0px;
     margin: 0px;
@@ -53,6 +58,7 @@ html, body {
     justify-content: center;
     align-items: flex-end;
     color: white;
+    font-family: "Century-Gothic";
 }
 
 .copyright a:visited {
@@ -61,4 +67,19 @@ html, body {
 
 .copyright a:hover {
     color: red;
+}
+
+.form-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    font-family: "Century-Gothic";
+    font-weight: bold;
+    background-color: rgb(247, 247, 247);
+    padding: 10.4rem 2rem 3rem;
+    font-size: 1.5rem;
 }
