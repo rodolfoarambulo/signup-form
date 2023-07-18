@@ -90,6 +90,7 @@ html, body {
     font-family: "Century-Gothic";
     padding: 1rem 2rem 2rem;
     background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
 }
 
 .inputs {
