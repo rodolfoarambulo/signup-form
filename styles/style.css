@@ -111,10 +111,17 @@ form {
 .input-row input {
     font-size: 16px;
     padding: 5px 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
 }
 
-.input-row input[type="text"]:focus {
-    border: 3px solid orange;
+.input-row input:focus {
+    outline: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid rgb(64, 64, 255);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.123);
 }
 
 .input-header p {
