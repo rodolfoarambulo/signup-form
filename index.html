@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="content"> 
+  <div class="content">
     <div class="side-hero">
       <div class="logo">
         <img src="images/card3.png" alt="Odin logo">
@@ -30,26 +30,42 @@
       </div>
 
       <div class="input-section">
-        <p>Let's do this!</p>
+        <div class="input-header">
+          <p>Let's do this!</p>
+        </div>
         <form action="" method="post" id="sign-up">
-          <label for="firstName">First Name</label>
-          <input type="text" name="firstName" id="firstName">
-
-          <label for="lastName">Last Name</label>
-          <input type="text" name="lastName" id="lastName">
-
-          <label for="email">Email</label>
-          <input type="email" name="email" id="email">
-
-          <label for="phoneNumber">Phone Number</label>
-          <input type="tel" name="phoneNumber" id="phoneNumber">
-
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password">
-
-          <label for="confirmPassword">Confirm Password</label>
-          <input type="password" name="confirmPassword" id="confirmPassword">
-
+          <div class="inputs">
+            <div class="input-row">
+              <label for="firstName">First Name</label>
+              <input type="text" name="firstName" id="firstName" size="30">
+            </div>
+  
+            <div class="input-row">
+              <label for="lastName">Last Name</label>
+              <input type="text" name="lastName" id="lastName" size="30">
+            </div>
+  
+            <div class="input-row">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" size="30">
+            </div>
+  
+            <div class="input-row">
+              <label for="phoneNumber">Phone Number</label>
+              <input type="tel" name="phoneNumber" id="phoneNumber" size="30">
+            </div>
+  
+            <div class="input-row">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" size="30">
+            </div>
+  
+            <div class="input-row">
+              <label for="confirmPassword">Confirm Password</label>
+              <input type="password" name="confirmPassword" id="confirmPassword" size="30">
+            </div>
+          </div>
+          
           <div class="submit-section">
             <button type="submit">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>

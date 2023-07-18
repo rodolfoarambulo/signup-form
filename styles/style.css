@@ -72,7 +72,6 @@ html, body {
 .form-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
 }
 
@@ -82,4 +81,40 @@ html, body {
     background-color: rgb(247, 247, 247);
     padding: 10.4rem 2rem 3rem;
     font-size: 1.5rem;
+}
+
+.input-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: "Century-Gothic";
+    width: 45vw;
+    padding: 1rem 2rem 1rem;
+}
+
+.inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.input-row {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-row input {
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.input-header p {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem 0rem 1rem;
+    margin: 0px;
+}
+
+.submit-section {
+    background-color: rgb(247, 247, 247);
 }
