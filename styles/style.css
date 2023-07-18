@@ -90,7 +90,7 @@ html, body {
     font-family: "Century-Gothic";
     padding: 1rem 2rem 2rem;
     background-color: white;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.123);
 }
 
 .inputs {
@@ -125,6 +125,20 @@ form {
 }
 
 .submit-section {
+    font-family: "Century-Gothic";
     margin: 0;
     padding: 1rem 2rem 2rem;
+}
+
+.submit-section button {
+    font-family: "Century-Gothic";
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    margin: 1rem 0rem 1rem;
+    padding: 1rem 4rem;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.123);
 }
